@@ -442,7 +442,7 @@ section:nth-child(3) .section-title {
 /* ===================================================================================== */
 /* =======================================ВСПЛЫВАЮЩЕЕ МЕНЮ============================== */
 
-.menu {
+/* .menu {
   padding: 20px;
   margin: 0;
   list-style: none;
@@ -487,6 +487,97 @@ section:nth-child(3) .section-title {
 
 .submenu a {
   text-decoration: none;
-}
+} */
 
 /* =========================================================================== */
+/* ================================== FORMS ================================== */
+
+
+/* body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+input {
+  padding: 8px;
+  font-family: inherit;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+} */
+
+textarea {
+  resize: none;
+}
+
+.form {
+  width: 600px;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 1px solid #2a2a2a;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+}
+
+.form-field input::placeholder {
+  color: #8e9ead;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+.group-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.topic-options {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.topic-options input[type="checkbox"] {
+
+}
+
+.topic-options label {
+  font-size: 20px;
+  margin-left: 10px; 
+}
+
+.topic-options li {
+  display: flex;
+  align-items: center;
+}
+
+.expirience-options {
+}
+
+.form .date {
+  border-color: #2196f3;
+  padding: 20px 40px;
+}
+
+.coment {
+  padding: 8px;
+}

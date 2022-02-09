@@ -150,7 +150,7 @@
 <!-- =================================================================================== -->
 <!-- ===================================ВСПЛЫВАЮЩЕЕ МЕНЮ================================ -->
 
-    <a href="/index.html">Назад на главную</a>
+    <!-- <a href="/index.html">Назад на главную</a>
 
     <ul class="menu">
         <li class="menu-item">
@@ -196,11 +196,185 @@
             </ul>
         </li>
     </ul>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora molestiae eum accusamus laudantium minus ex ab officia corrupti id excepturi, est dolorem iste sed dignissimos quia magni, omnis ipsa rem minima mollitia? Soluta dicta minima consectetur placeat eius tempora doloremque, culpa quae beatae tenetur rem labore illum veritatis, officiis facilis ipsa magnam quasi, quisquam totam dignissimos. Aliquam esse voluptates quia quibusdam obcaecati voluptate nesciunt, neque qui repudiandae natus magnam suscipit non numquam enim, maiores excepturi in quaerat sapiente blanditiis unde ea veniam facere at! Consectetur, ut ipsam? Cum magni, iste beatae, dolorem ex pariatur quas optio at, sit nobis maiores?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora molestiae eum accusamus laudantium minus ex ab officia corrupti id excepturi, est dolorem iste sed dignissimos quia magni, omnis ipsa rem minima mollitia? Soluta dicta minima consectetur placeat eius tempora doloremque, culpa quae beatae tenetur rem labore illum veritatis, officiis facilis ipsa magnam quasi, quisquam totam dignissimos. Aliquam esse voluptates quia quibusdam obcaecati voluptate nesciunt, neque qui repudiandae natus magnam suscipit non numquam enim, maiores excepturi in quaerat sapiente blanditiis unde ea veniam facere at! Consectetur, ut ipsam? Cum magni, iste beatae, dolorem ex pariatur quas optio at, sit nobis maiores?</p> -->
 
     <!-- ================================================================================= -->
+    <!-- ================================== FORMS ======================================== -->
+
+    <!-- <form>
+        <label>
+            Email
+            <input type="email" name="email" />
+        </label>
+    
+        <label>
+            Password
+            <input type="password" name="password" />
+        </label>
+    
+        <button type="submit">Submit</button>
+    </form>
+
+    <form>
+        <label for="user_email">Email</label>
+        <input type="email" name="email" id="user_email" />
+    
+        <label for="user_password">Password</label>
+        <input type="password" name="password" id="user_password" />
+    
+        <button type="submit">Submit</button>
+    </form> -->
+
+    <!-- --------------------------------------------------------------------------------- -->
+
+    <!-- <form>
+        <label>
+            Username
+            <input type="text" name="Username" autofocus />            
+        </label>
+        <label>
+            Email
+            <input type="text" name="Email"/>
+        </label>
+        <button type="submit">Submit</button>
 
 
+    </form>
+
+    <form>
+        <label>
+            Phone number
+            <input type="tel" name="phone_number" />
+        </label>
+    
+        <button type="submit">Submit</button>
+    </form>
+
+    <label>
+        Interest rate:
+        <input type="range" name="interest_rate" value="40" min="0" max="100" step="20" />
+    </label>
+    
+    <p>Selected value: <span class="js-selected-value">40</span></p> -->
+
+
+
+    <form action="" class="js-speaker-form form">
+        
+        <!-- <label>
+                    name
+                    <input type="text" name="name" />
+                </label> -->
+        <div class="form-field">
+            <label for="name" class="form-label">Name</label>
+            <input class="form-input" type="text" name="user-name" id="name" autofocus placeholder="Петр Иванов"/>
+        </div>
+
+        <div class="form-field">
+            <label for="tel">Phone</label>
+            <input type="tel" name="tel" id="tel" placeholder="+380-XX-XXX-XX-XX"/>
+        </div>
+
+        <div class="form-field">
+            <label for="mail">Mail</label>
+            <input type="email" name="mail" id="mail" placeholder="my@mail.com"/>
+        </div>
+        
+        <div role="group" class="group">
+            <h2 class="group-title">Тема доклада</h2>
+
+
+        <ul class="topic-options">
+            <li>
+                <input type="checkbox" name="topic" value="html" id="html" checked>
+                <label for="html">HTML</label>
+            </li>
+
+            <li>
+                <input type="checkbox" name="topic" value="css" id="css">
+                <label for="css">CSS</label>
+            </li>
+
+            <li>
+                <input type="checkbox" name="topic" value="js" id="js">
+                <label for="js">JavaScript</label>
+            </li>                
+        </ul>
+        </div>
+
+
+        <div role="group" class="group">
+            <h2 class="group-title">Уровень экспертности</h2>
+
+        <ul class="expirience-options">
+            <li>
+                <input type="radio" name="level" value="junior" id="junior" checked>
+                <label for="junior">Junior</label>
+            </li>
+            <li>
+                <input type="radio" name="level" value="midle" id="midle">
+                <label for="midle">Midle</label>
+            </li>
+            <li>
+                <input type="radio" name="level" value="senior" id="senior">
+                <label for="senior">Senior</label>
+            </li>
+        </ul>
+        </div>
+
+        <div class="form-field">
+            <label for="date">Date</label>
+            <input type="datetime-local" 
+            name="date" 
+            id="date" 
+            min="2022-01-12T12:00" 
+            max="2022-04-12T12:00" />
+        </div>
+        
+
+        <div class="form-field">
+            <label for="pdf">Загрузите файл</label>
+            <input type="file" name="pdf" id="pdf">
+        </div>
+
+        <div class="form-field">
+            <label for="coment">Оставьте коментарий</label>
+            <textarea class="coment" name="coment" 
+                id="coment" 
+                cols="" 
+                rows="10" 
+                placeholder="Ваш коментарий"></textarea>
+
+        </div>
+
+        <div class="form-field">
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy">Принять</label>
+        </div>
+
+
+        <button type="submit">Отправить</button>
+        
+
+        
+    </form>
+
+
+    <script>
+        (() => {
+            document
+                .querySelector('.js-speaker-form')
+                .addEventListener('submit', e => {
+                    e.preventDefault();
+
+                    new FormData(e.currentTarget).forEach((value, name) => 
+                        console.log(`${name}: ${value}`),
+                    );
+
+                    e.currentTarget.reset();
+                });
+        })();    
+    </script>
 </body>
 
 </html>
