@@ -99,8 +99,8 @@ ul {
 
 /* -------------------------------HEADER---------------------------------*/
 
-.overlay {
-  /* max-width: 1600px;
+/* .overlay {
+  max-width: 1600px;
   height: 480px;
   margin-left: auto;
   margin-right: auto;
@@ -114,8 +114,8 @@ ul {
   /* background-image: url(../images/hero-fon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; */
-}
+  background-position: center;
+} */
 
 /* .container {
   display: flex;
@@ -564,9 +564,9 @@ textarea {
   list-style: none;
 }
 
-.topic-options input[type="checkbox"] {
+/* .topic-options input[type="checkbox"] {
 
-}
+} */
 
 .topic-options label {
   font-size: 20px;
@@ -578,8 +578,6 @@ textarea {
   align-items: center;
 }
 
-.expirience-options {
-}
 
 .form .date {
   border-color: #2196f3;
