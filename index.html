@@ -1,419 +1,197 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="webstudio" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 6</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
+
+    <!-- ====================================================== -->
     <div class="wrapper">
-      <nav class="nav">
-        <ul class="list">
-          <li class="item"><a class="link current" href="">Link 1</a></li>
-          <li class="item"><a class="link" href="">Link 2</a></li>
-          <li class="item"><a class="link" href="">Link 3</a></li>
-        </ul>
-      </nav>
-      <div class="fixed-box"></div>
-      <div class="container">
-        <!-- <div class="box blue">1</div>
-        <div class="box yellow">2</div>
-        <div class="box hotpink">3</div> -->
-        <p class="text">
-          <span class="title"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor in
-            nulla sapiente delectus laboriosam sunt, repellendus optio
-            consequuntur eos ipsam?</span
-          >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-          sapiente obcaecati numquam eum! Repudiandae unde quasi inventore quae
-          deleniti a commodi quo in explicabo! Autem, ea vel maxime fuga
-          recusandae officiis mollitia ullam sapiente alias doloremque non
-          blanditiis provident hic sunt accusantium facere asperiores similique
-          molestiae omnis cum quasi. Totam ex tenetur natus cumque ipsa officiis
-          exercitationem id, consequuntur facilis repellendus ad ullam? Nostrum,
-          possimus unde blanditiis officiis consequatur aperiam minima
-          dignissimos dicta, distinctio facere velit temporibus. Laborum quo,
-          pariatur ipsa ullam eveniet corrupti delectus iste veniam maxime!
-          Distinctio voluptatum reprehenderit, rerum fugiat sapiente quis.
-          Corporis fugit qui natus soluta.
-        </p>
-        <button class="btn">Click me!</button>
-      </div>
-    </div>
+      <form class="form" name="" id="">
+        <!-- Autofocus -->
+        <!-- <div class="label-wrapper">
+            <input class="input" type="text" id="name">
+            <label for="name">Username</label>            
+        </div> -->
+        
+        <!-- <label class="form-label">
+          Username -->
+          <!-- <input type="text" name="username" autofocus />
+        </label>
+        <label class="form-label">
+          Email
+          <input type="email" name="email" />
+        </label> -->
 
-    <!-- =============================================================================== -->
-    <!-- <div class="container">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div> -->
+        <!-- Placeholder -->
+        <!-- <label class="form-label">
+          Username
+          <input type="text" name="username" placeholder="Jacob Mercer" />
+        </label>
+        <label class="form-label">
+          Phone
+          <input type="tel" name="phone" placeholder="+38 (099) - 11 - 11 - 111" >
+        </label> -->
 
-    <!-- <div class="overlay"></div> -->
+        <!-- Email & Password -->
+        <!-- <label class="form-label">
+          Email
+          <input type="email" name="email" />
+        </label>
+        <label class="form-label">
+          Password
+          <input type="password" name="password" minlength="5" maxlength="12" />
+        </label> -->
 
-    <!-- <div class="container">
-        <div class="box"></div>
-        <div class="box relative"></div>
-        <div class="box"></div>
-    </div> -->
+        <!-- Radio buttons -->
+        <!-- <div class="radio-btn">
+          <label class="">
+            <input type="radio" name="color" value="button-1" checked />
+            Button 1
+          </label>
+          <label class="">
+            <input type="radio" name="color" value="button-2" />
+            Button 2
+          </label>
+          <label class="">
+            <input type="radio" name="color" value="button-3" />
+            Button 3
+          </label>
+        </div> -->
 
-    <!-- ------------------------------------------------------------------------------------- -->
+        <!-- Checkboxes -->
+        <!-- <div class="checkboxes">
+          <label class="checkbox-label">
+            <input type="checkbox" name="checkbox" value="checkbox-1" checked />
+            <span>Checkbox 1</span>
+          </label>
+          <label class="">
+            <input type="checkbox" name="checkbox" value="checkbox-2" checked />
+            Checkbox 2
+          </label>
+          <label class="">
+            <input type="checkbox" name="checkbox" value="checkbox-3" />
+            Checkbox 3
+          </label>
+        </div> -->
 
-    <!-- <div class="container">
-        <div class="thumb">
-            <img src="https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320" alt="">
-            <p class="label">Dog</p>
-        </div>
+        <!-- Numbers input -->
+        <!-- <label class="form-label">
+          Age
+          <input
+            type="number"
+            name="age"
+            value="0"
+            step="1"
+            min="18"
+            max="100"
+          />
+        </label> -->
 
-        <div class="thumb">
-            <img src="https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&dpr=2&&w=320" alt="">
-            <p class="label">Cat</p>
-        </div>
+        <!-- Date & time -->
+        <!-- <div class="date-time">
+          <label class="form-label">
+            Date
+            <input type="date" min="1920-01-01" max="2020-01-01" />
+          </label>
 
-        <div class="thumb">
-            <img src="https://images.pexels.com/photos/1300361/pexels-photo-1300361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320" alt="">
-            <p class="label">Pig</p>
-        </div>
+          <label class="form-label">
+            Time
+            <input type="time" />
+          </label>
 
-    </div> -->
+          <label class="form-label">
+            Date and time
+            <input
+              type="datetime-local"
+              min="1920-01-01T00:00"
+              max="2020-01-01T00:00"
+            />
+          </label>
+        </div> -->
 
-    <!-- --------------------------------------------------------------------------------------- -->
+        <!-- Tetxarea -->
+        <!-- <label class="form-label">
+          Feedback
+          <textarea
+            name="feedback"
+            rows="5"
+            placeholder="Type your message here..."
+          ></textarea>
+        </label> -->
 
-    <!-- <div class="container">
-        <div class="thumb">
-            <img src="https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320"
-                alt="two-yellow-labrador-retriever-puppies">
-            <p class="label">Dog</p>
-        </div>
-    
-        <div class="thumb">
-            <img src="https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&dpr=2&&w=320"
-                alt="adorable-animal-blur-cat">
-            <p class="label">Cat</p>
-        </div>
-    
-        <div class="thumb">
-            <img src="https://images.pexels.com/photos/1300361/pexels-photo-1300361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320"
-                alt="black-hog-prone-lying-on-soil-under-shade-of-tree">
-            <p class="label">Pig</p>
-        </div>
-    </div> -->
-
-    <!-- ---------------------------------------------------------------------------------- -->
-
-    <!-- <button class="chat-button"></button>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta animi provident modi a magni cumque, fugit suscipit repellendus vero nihil dignissimos molestias, necessitatibus doloremque minima consectetur laborum! Similique facere dolores ad a recusandae nostrum perferendis vel beatae quam, soluta inventore, natus, unde voluptatem temporibus doloremque omnis veritatis numquam ducimus molestias. Laborum, optio id eum ipsa at rerum porro ab quae eius maxime. Itaque corrupti, asperiores atque nesciunt vero eaque. Inventore quam enim perferendis tempora optio corrupti a minus vel corporis dignissimos, voluptates in natus at non officia aspernatur! Inventore distinctio repudiandae sequi, expedita molestiae, molestias ad ut assumenda consequatur labore cupiditate accusantium, fugit numquam hic dolor ipsa rerum deserunt sunt. Quasi voluptatum magni quidem accusantium, quas facere! Quae non modi reprehenderit et vel? Minima, ab voluptatibus delectus fugiat iure sunt omnis maxime, maiores provident exercitationem id libero, at eaque soluta. Tempora atque, magnam quo suscipit expedita asperiores excepturi accusantium non vero est cumque praesentium magni alias adipisci! Dolore numquam voluptatum provident, reprehenderit deserunt quia magnam maxime necessitatibus ut in quod vero sapiente, rerum minus laborum quis quisquam eveniet quaerat cumque non delectus quasi excepturi, dolorem voluptas? Facilis ipsa consequatur esse quia atque. Fugit, corporis ut impedit quo non harum reiciendis. ipsum dolor sit amet consectetur adipisicing elit. Harum cumque necessitatibus nemo asperiores similique itaque animi porro pariatur ratione error, accusantium quam dolorum perspiciatis reprehenderit ducimus quas voluptate officia eveniet voluptas veritatis officiis. Voluptatum necessitatibus fuga consequatur reiciendis temporibus corrupti, ducimus totam impedit, blanditiis assumenda suscipit ipsum iusto iste repellendus. Magnam quaerat libero quos sint quo rem porro reiciendis velit! Iste culpa quia, aspernatur deleniti mollitia eum! Cumque, debitis ut nam deserunt sit odit sint placeat, a numquam nisi qui. Fugiat asperiores excepturi aliquam soluta ipsam itaque, atque error molestiae a consectetur aut eveniet recusandae explicabo temporibus hic non dicta!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex officiis vel itaque aut incidunt ipsam praesentium sit at omnis sequi sunt quia nesciunt architecto earum, error similique expedita qui. Excepturi aspernatur neque fuga laudantium? Quasi enim mollitia itaque aspernatur ipsa in iure earum eveniet fuga deserunt quam illo, dolor commodi facere cum aperiam et doloribus, explicabo atque laboriosam quae odit harum delectus. Ut assumenda amet deleniti quis nam dolorum, excepturi, adipisci non error architecto soluta sed. Quia nisi non numquam voluptate blanditiis iusto est et ipsa repellat maxime repudiandae ducimus, sequi nesciunt iure sint itaque ea minima hic aspernatur. Officiis facilis repellat similique dolorum quis vitae voluptatibus magni quam qui obcaecati magnam at architecto non, nesciunt perferendis soluta rerum maxime. Ut, quasi nobis tenetur ducimus, perspiciatis autem, nemo vitae voluptatum quibusdam numquam voluptates eveniet dolore a recusandae doloribus! Blanditiis dignissimos at exercitationem, in molestias cumque. Quae dolorum id ratione cum vero corporis error quia sapiente esse. Minus, quae quam odit, illo vero possimus rerum illum excepturi velit dicta cumque exercitationem aliquid beatae corrupti perspiciatis quo sunt! Dolor aliquid quos ad repellendus est dignissimos reprehenderit vero iusto debitis illo, libero delectus itaque quae! Eveniet consequatur, qui repellendus facere quas rerum quo. ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia amet dolor assumenda similique praesentium sapiente maxime, voluptatem non facilis ullam inventore cumque quae totam, voluptas obcaecati corporis! Laudantium dicta quaerat in, ullam similique excepturi dolorem dolor! In excepturi aut tempore iusto! Quisquam fugiat sit est ad necessitatibus omnis magni cumque praesentium labore culpa at atque sint laudantium nam sapiente quibusdam eaque vitae, quos, facere similique quas itaque perferendis quasi. Dolorum repellat dolore iste commodi autem, dignissimos vitae esse modi recusandae necessitatibus nobis! Facere similique tempora nesciunt, illo magni quod voluptatem vel voluptatibus corporis asperiores officia rem perspiciatis aliquam eum!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex officiis vel itaque aut incidunt ipsam praesentium sit at omnis sequi sunt quia nesciunt architecto earum, error similique expedita qui. Excepturi aspernatur neque fuga laudantium? Quasi enim mollitia itaque aspernatur ipsa in iure earum eveniet fuga deserunt quam illo, dolor commodi facere cum aperiam et doloribus, explicabo atque laboriosam quae odit harum delectus. Ut assumenda amet deleniti quis nam dolorum, excepturi, adipisci non error architecto soluta sed. Quia nisi non numquam voluptate blanditiis iusto est et ipsa repellat maxime repudiandae ducimus, sequi nesciunt iure sint itaque ea minima hic aspernatur. Officiis facilis repellat similique dolorum quis vitae voluptatibus magni quam qui obcaecati magnam at architecto non, nesciunt perferendis soluta rerum maxime. Ut, quasi nobis tenetur ducimus, perspiciatis autem, nemo vitae voluptatum quibusdam numquam voluptates eveniet dolore a recusandae doloribus! Blanditiis dignissimos at exercitationem, in molestias cumque. Quae dolorum id ratione cum vero corporis error quia sapiente esse. Minus, quae quam odit, illo vero possimus rerum illum excepturi velit dicta cumque exercitationem aliquid beatae corrupti perspiciatis quo sunt! Dolor aliquid quos ad repellendus est dignissimos reprehenderit vero iusto debitis illo, libero delectus itaque quae! Eveniet consequatur, qui repellendus facere quas rerum quo. ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia amet dolor assumenda similique praesentium sapiente maxime, voluptatem non facilis ullam inventore cumque quae totam, voluptas obcaecati corporis! Laudantium dicta quaerat in, ullam similique excepturi dolorem dolor! In excepturi aut tempore iusto! Quisquam fugiat sit est ad necessitatibus omnis magni cumque praesentium labore culpa at atque sint laudantium nam sapiente quibusdam eaque vitae, quos, facere similique quas itaque perferendis quasi. Dolorum repellat dolore iste commodi autem, dignissimos vitae esse modi recusandae necessitatibus nobis! Facere similique tempora nesciunt, illo magni quod voluptatem vel voluptatibus corporis asperiores officia rem perspiciatis aliquam eum!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex officiis vel itaque aut incidunt ipsam praesentium sit at omnis sequi sunt quia nesciunt architecto earum, error similique expedita qui. Excepturi aspernatur neque fuga laudantium? Quasi enim mollitia itaque aspernatur ipsa in iure earum eveniet fuga deserunt quam illo, dolor commodi facere cum aperiam et doloribus, explicabo atque laboriosam quae odit harum delectus. Ut assumenda amet deleniti quis nam dolorum, excepturi, adipisci non error architecto soluta sed. Quia nisi non numquam voluptate blanditiis iusto est et ipsa repellat maxime repudiandae ducimus, sequi nesciunt iure sint itaque ea minima hic aspernatur. Officiis facilis repellat similique dolorum quis vitae voluptatibus magni quam qui obcaecati magnam at architecto non, nesciunt perferendis soluta rerum maxime. Ut, quasi nobis tenetur ducimus, perspiciatis autem, nemo vitae voluptatum quibusdam numquam voluptates eveniet dolore a recusandae doloribus! Blanditiis dignissimos at exercitationem, in molestias cumque. Quae dolorum id ratione cum vero corporis error quia sapiente esse. Minus, quae quam odit, illo vero possimus rerum illum excepturi velit dicta cumque exercitationem aliquid beatae corrupti perspiciatis quo sunt! Dolor aliquid quos ad repellendus est dignissimos reprehenderit vero iusto debitis illo, libero delectus itaque quae! Eveniet consequatur, qui repellendus facere quas rerum quo. ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia amet dolor assumenda similique praesentium sapiente maxime, voluptatem non facilis ullam inventore cumque quae totam, voluptas obcaecati corporis! Laudantium dicta quaerat in, ullam similique excepturi dolorem dolor! In excepturi aut tempore iusto! Quisquam fugiat sit est ad necessitatibus omnis magni cumque praesentium labore culpa at atque sint laudantium nam sapiente quibusdam eaque vitae, quos, facere similique quas itaque perferendis quasi. Dolorum repellat dolore iste commodi autem, dignissimos vitae esse modi recusandae necessitatibus nobis! Facere similique tempora nesciunt, illo magni quod voluptatem vel voluptatibus corporis asperiores officia rem perspiciatis aliquam eum!</p>
-     -->
-    <!-------------------------------------------------------------------------------------- -->
-
-    <!-- <section class="section">
-        <h2 class="section-title">First section heading</h2>
-        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, excepturi? Et molestiae aspernatur, recusandae itaque veritatis reprehenderit facere deserunt corrupti nesciunt beatae quos vitae? Voluptatibus recusandae quis at, fugit vero alias facilis, corrupti labore in, explicabo beatae? Vel labore cum voluptatum ullam amet nihil quia excepturi similique assumenda obcaecati? Quis quibusdam nam unde, magni non repellat. Aliquam voluptatibus, vel, incidunt ut facilis, inventore amet sint quisquam neque consequatur hic. Exercitationem itaque inventore ad amet corporis labore cupiditate eius ullam voluptates nihil, fugit vero a velit esse voluptas consequatur eos minima quod assumenda ab officia repudiandae dicta sint. Voluptate nemo dolor sapiente impedit! Nam velit repellat cupiditate! Cum hic sint fugiat necessitatibus ipsam pariatur debitis minus est, eum eos ratione enim porro exercitationem facere, a voluptas obcaecati voluptatibus cupiditate beatae deserunt aliquam iusto aut quas temporibus! Harum officia in voluptatum! Quidem, voluptatibus culpa repellendus incidunt aspernatur saepe, ipsum officia, inventore quo maiores libero quaerat ipsa dignissimos labore blanditiis provident qui recusandae sunt dolorem? Necessitatibus maiores et quos odit nemo quas quibusdam, aliquam voluptatum sint cupiditate sequi consequatur cumque nulla quaerat at perspiciatis quis voluptatibus natus fuga dignissimos accusamus. Odio, quibusdam fuga earum sit explicabo cumque, facilis consequatur et voluptas doloribus rerum.</p>
-    </section>
-
-    <section class="section">
-        <h2 class="section-title">Second section heading</h2>
-        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, excepturi? Et molestiae aspernatur, recusandae itaque veritatis reprehenderit facere deserunt corrupti nesciunt beatae quos vitae? Voluptatibus recusandae quis at, fugit vero alias facilis, corrupti labore in, explicabo beatae? Vel labore cum voluptatum ullam amet nihil quia excepturi similique assumenda obcaecati? Quis quibusdam nam unde, magni non repellat. Aliquam voluptatibus, vel, incidunt ut facilis, inventore amet sint quisquam neque consequatur hic. Exercitationem itaque inventore ad amet corporis labore cupiditate eius ullam voluptates nihil, fugit vero a velit esse voluptas consequatur eos minima quod assumenda ab officia repudiandae dicta sint. Voluptate nemo dolor sapiente impedit! Nam velit repellat cupiditate! Cum hic sint fugiat necessitatibus ipsam pariatur debitis minus est, eum eos ratione enim porro exercitationem facere, a voluptas obcaecati voluptatibus cupiditate beatae deserunt aliquam iusto aut quas temporibus! Harum officia in voluptatum! Quidem, voluptatibus culpa repellendus incidunt aspernatur saepe, ipsum officia, inventore quo maiores libero quaerat ipsa dignissimos labore blanditiis provident qui recusandae sunt dolorem? Necessitatibus maiores et quos odit nemo quas quibusdam, aliquam voluptatum sint cupiditate sequi consequatur cumque nulla quaerat at perspiciatis quis voluptatibus natus fuga dignissimos accusamus. Odio, quibusdam fuga earum sit explicabo cumque, facilis consequatur et voluptas doloribus rerum.</p>
-    </section>
-
-    <section class="section">
-        <h2 class="section-title">Third section heading</h2>
-        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, excepturi? Et molestiae aspernatur, recusandae itaque veritatis reprehenderit facere deserunt corrupti nesciunt beatae quos vitae? Voluptatibus recusandae quis at, fugit vero alias facilis, corrupti labore in, explicabo beatae? Vel labore cum voluptatum ullam amet nihil quia excepturi similique assumenda obcaecati? Quis quibusdam nam unde, magni non repellat. Aliquam voluptatibus, vel, incidunt ut facilis, inventore amet sint quisquam neque consequatur hic. Exercitationem itaque inventore ad amet corporis labore cupiditate eius ullam voluptates nihil, fugit vero a velit esse voluptas consequatur eos minima quod assumenda ab officia repudiandae dicta sint. Voluptate nemo dolor sapiente impedit! Nam velit repellat cupiditate! Cum hic sint fugiat necessitatibus ipsam pariatur debitis minus est, eum eos ratione enim porro exercitationem facere, a voluptas obcaecati voluptatibus cupiditate beatae deserunt aliquam iusto aut quas temporibus! Harum officia in voluptatum! Quidem, voluptatibus culpa repellendus incidunt aspernatur saepe, ipsum officia, inventore quo maiores libero quaerat ipsa dignissimos labore blanditiis provident qui recusandae sunt dolorem? Necessitatibus maiores et quos odit nemo quas quibusdam, aliquam voluptatum sint cupiditate sequi consequatur cumque nulla quaerat at perspiciatis quis voluptatibus natus fuga dignissimos accusamus. Odio, quibusdam fuga earum sit explicabo cumque, facilis consequatur et voluptas doloribus rerum.</p>
-    </section>
-
-    <section class="section">
-        <h2 class="section-title">Fourth section heading</h2>
-        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, excepturi? Et molestiae aspernatur, recusandae itaque veritatis reprehenderit facere deserunt corrupti nesciunt beatae quos vitae? Voluptatibus recusandae quis at, fugit vero alias facilis, corrupti labore in, explicabo beatae? Vel labore cum voluptatum ullam amet nihil quia excepturi similique assumenda obcaecati? Quis quibusdam nam unde, magni non repellat. Aliquam voluptatibus, vel, incidunt ut facilis, inventore amet sint quisquam neque consequatur hic. Exercitationem itaque inventore ad amet corporis labore cupiditate eius ullam voluptates nihil, fugit vero a velit esse voluptas consequatur eos minima quod assumenda ab officia repudiandae dicta sint. Voluptate nemo dolor sapiente impedit! Nam velit repellat cupiditate! Cum hic sint fugiat necessitatibus ipsam pariatur debitis minus est, eum eos ratione enim porro exercitationem facere, a voluptas obcaecati voluptatibus cupiditate beatae deserunt aliquam iusto aut quas temporibus! Harum officia in voluptatum! Quidem, voluptatibus culpa repellendus incidunt aspernatur saepe, ipsum officia, inventore quo maiores libero quaerat ipsa dignissimos labore blanditiis provident qui recusandae sunt dolorem? Necessitatibus maiores et quos odit nemo quas quibusdam, aliquam voluptatum sint cupiditate sequi consequatur cumque nulla quaerat at perspiciatis quis voluptatibus natus fuga dignissimos accusamus. Odio, quibusdam fuga earum sit explicabo cumque, facilis consequatur et voluptas doloribus rerum.</p>
-    </section> -->
-
-    <!-- -------------------------------------------------------------------------------- -->
-
-    <!-- <div class="box">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis cum quibusdam similique debitis eos, fuga in ipsum quaerat impedit, nam error atque sequi laudantium incidunt hic assumenda! Autem, voluptatum ratione. Ab illum quasi exercitationem dignissimos, quae est eaque eligendi maxime omnis laudantium quos, doloremque adipisci quidem dicta recusandae facilis? Velit, commodi consectetur, quas a repudiandae magni illo iure rem obcaecati quam officiis cupiditate perspiciatis? Doloremque, ipsa laborum. Beatae voluptate incidunt alias, possimus laudantium molestias soluta, ea nihil delectus praesentium ipsum ducimus aspernatur placeat a totam deserunt! Vel quaerat deleniti dolore aperiam similique nam harum, aliquam fugiat adipisci aliquid laborum amet.
-    </div> -->
-
-    <!-- -------------------------------------------------------------------------------- -->
-
-    <!-- <div class="thumb">
-        <img src="https://images.pexels.com/photos/33492/cat-red-cute-mackerel.jpg?auto=compress&cs=tinysrgb&h=480&w=640" alt="">
-    </div> -->
-
-    <!-- -------------------------------------------------------------------------------- -->
-
-    <!-- <h1>Move the mouse over the square</h1>
-
-    <div class="box">
-        <div class="overlay">
-            <p>This content is hidden through transformation and only appears when hovering over <code>div.box</code></p>
-        </div>
-    </div> -->
-
-    <!-- ================================================================================ -->
-    <!-- =========================================МОДАЛКА================================ -->
-
-    <!-- <a href="/index.html">Назад на главную</a>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nulla dignissimos facilis tenetur accusantium ipsam quos illum inventore, eligendi perspiciatis quidem optio eos consectetur quasi asperiores autem ad libero ullam dolore? Similique voluptate nihil tempore iste animi in? Quibusdam asperiores voluptate natus repellendus itaque consequatur, quis obcaecati maxime repellat? Quod?</p>
-
-    <button>Открыть модалку</button>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos magni praesentium dolores aut, voluptate dicta explicabo odio, qui, sed similique saepe minus quo cupiditate distinctio voluptatem iure? Impedit nisi possimus voluptatum nesciunt voluptate natus officiis quae, itaque dolore cum facilis inventore? Laudantium suscipit reprehenderit odio delectus quasi voluptatem harum et.</p>
-
-    <div class="backdrop is-hidden">
-        <div class="modal">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, in error quam aperiam eaque reprehenderit necessitatibus fugiat atque libero maiores amet labore eos, dolor, possimus recusandae. Quae dignissimos aliquid eius animi mollitia nesciunt neque vitae sequi magni sapiente? Dolor, rerum et dignissimos illo corporis debitis minima tempora laborum aliquid odio obcaecati omnis modi commodi dolorem.
-            </p>
-            <button>Закрыть</button>
-        </div>
-    </div>
-
-
-    <script>
-
-    </script> -->
-
-    <!-- =================================================================================== -->
-    <!-- ===================================ВСПЛЫВАЮЩЕЕ МЕНЮ================================ -->
-
-    <!-- <a href="/index.html">Назад на главную</a>
-
-    <ul class="menu">
-        <li class="menu-item">
-            <a class="menu-link" href="">Комплектующие</a>
-            <ul class="submenu">
-                <li>
-                    <a href="">Холодильники</a>
-                </li>
-                <li>
-                    <a href="">Плиты</a>
-                </li>
-                <li>
-                    <a href="">Варочные панели</a>
-                </li>
-            </ul>
-        </li>
-        <li class="menu-item">
-            <a class="menu-link" href="">Товары для дома</a>
-            <ul class="submenu">
-                <li>
-                    <a href="">Холодильники</a>
-                </li>
-                <li>
-                    <a href="">Плиты</a>
-                </li>
-                <li>
-                    <a href="">Варочные панели</a>
-                </li>
-            </ul>
-        </li>
-        <li class="menu-item">
-            <a class="menu-link" href="">Бытовая техника</a>
-            <ul class="submenu">
-                <li>
-                    <a href="">Холодильники</a>
-                </li>
-                <li>
-                    <a href="">Плиты</a>
-                </li>
-                <li>
-                    <a href="">Варочные панели</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora molestiae eum accusamus laudantium minus ex ab officia corrupti id excepturi, est dolorem iste sed dignissimos quia magni, omnis ipsa rem minima mollitia? Soluta dicta minima consectetur placeat eius tempora doloremque, culpa quae beatae tenetur rem labore illum veritatis, officiis facilis ipsa magnam quasi, quisquam totam dignissimos. Aliquam esse voluptates quia quibusdam obcaecati voluptate nesciunt, neque qui repudiandae natus magnam suscipit non numquam enim, maiores excepturi in quaerat sapiente blanditiis unde ea veniam facere at! Consectetur, ut ipsam? Cum magni, iste beatae, dolorem ex pariatur quas optio at, sit nobis maiores?</p> -->
-
-    <!-- ================================================================================= -->
-    <!-- ================================== FORMS ======================================== -->
-
-    <!-- <form>
-        <label>
+        <!-- Form group -->
+        <div
+          class="form-group"
+          role="group"
+          aria-labelledby="contact-details-head"
+        >
+          <p id="contact-details-head">Enter your contact details</p>
+          <label>
+            Name
+            <input type="text" name="username" />
+          </label>
+          <label>
             Email
             <input type="email" name="email" />
-        </label>
-    
-        <label>
-            Password
-            <input type="password" name="password" />
-        </label>
-    
-        <button type="submit">Submit</button>
-    </form>
-
-    <form>
-        <label for="user_email">Email</label>
-        <input type="email" name="email" id="user_email" />
-    
-        <label for="user_password">Password</label>
-        <input type="password" name="password" id="user_password" />
-    
-        <button type="submit">Submit</button>
-    </form> -->
-
-    <!-- --------------------------------------------------------------------------------- -->
-
-    <!-- <form>
-        <label>
-            Username
-            <input type="text" name="Username" autofocus />            
-        </label>
-        <label>
-            Email
-            <input type="text" name="Email"/>
-        </label>
-        <button type="submit">Submit</button>
-
-
-    </form>
-
-    <form>
-        <label>
-            Phone number
-            <input type="tel" name="phone_number" />
-        </label>
-    
-        <button type="submit">Submit</button>
-    </form>
-
-    <label>
-        Interest rate:
-        <input type="range" name="interest_rate" value="40" min="0" max="100" step="20" />
-    </label>
-    
-    <p>Selected value: <span class="js-selected-value">40</span></p> -->
-
-    <!-- <form action="" class="js-speaker-form form">
-        
-        <div class="form-field">            
-            <input class="form-input" 
-            type="text" 
-            name="user-name" 
-            id="name" 
-            autofocus 
-            placeholder=" "
+          </label>
+        </div>
+        <div class="form-group" role="group" aria-labelledby="language-head">
+          <p id="language-head">Your favourite programming language</p>
+          <label>
+            <input type="checkbox" name="language" value="python" />
+            Python
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="js" />
+            JavaScript
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="ruby" />
+            Ruby
+          </label>
+        </div>
+        <div class="form-group" role="group" aria-labelledby="newsletter-head">
+          <p id="newsletter-head">I want to receive</p>
+          <label>
+            <input type="checkbox" name="newsletter" value="weekly" />
+            The weekly newsletter
+          </label>
+          <label>
+            <input type="checkbox" name="newsletter" value="company_offers" />
+            Offers from the company
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="newsletter"
+              value="associated_offers"
             />
-            <label for="name" class="form-label">Name</label>
+            Offers from associated companies
+          </label>
         </div>
+        <button type="submit">Subscribe</button>
 
-        <div class="form-field">
-            <label for="tel">Phone</label>
-            <input type="tel" name="tel" id="tel" placeholder="+380-XX-XXX-XX-XX"/>
-        </div>
-
-        <div class="form-field">
-            <label for="mail">Mail</label>
-            <input type="email" name="mail" id="mail" placeholder="my@mail.com"/>
-        </div>
-        
-        <div role="group" class="group">
-            <h2 class="group-title">Тема доклада</h2>
-
-
-        <ul class="topic-options">
-            <li>
-                <input type="checkbox" name="topic" value="html" id="html" checked>
-                <label for="html">HTML</label>
-            </li>
-
-            <li>
-                <input type="checkbox" name="topic" value="css" id="css">
-                <label for="css">CSS</label>
-            </li>
-
-            <li>
-                <input type="checkbox" name="topic" value="js" id="js">
-                <label for="js">JavaScript</label>
-            </li>                
-        </ul>
-        </div>
-
-
-        <div role="group" class="group">
-            <h2 class="group-title">Уровень экспертности</h2>
-
-        <ul class="expirience-options">
-            <li>
-                <input type="radio" name="level" value="junior" id="junior" checked>
-                <label for="junior">Junior</label>
-            </li>
-            <li>
-                <input type="radio" name="level" value="midle" id="midle">
-                <label for="midle">Midle</label>
-            </li>
-            <li>
-                <input type="radio" name="level" value="senior" id="senior">
-                <label for="senior">Senior</label>
-            </li>
-        </ul>
-        </div>
-
-        <div class="form-field">
-            <label for="date">Date</label>
-            <input type="datetime-local" 
-            name="date" 
-            id="date" 
-            min="2022-01-12T12:00" 
-            max="2022-04-12T12:00" />
-        </div>
-        
-
-        <div class="form-field">
-            <label for="pdf">Загрузите файл</label>
-            <input type="file" name="pdf" id="pdf">
-        </div>
-
-        <div class="form-field">
-            <label for="coment">Оставьте коментарий</label>
-            <textarea class="coment" name="coment" 
-                id="coment" 
-                cols="" 
-                rows="10" 
-                placeholder="Ваш коментарий"></textarea>
-
-        </div>
-
-        <div class="form-field">
-            <input type="checkbox" name="policy" id="policy" />
-            <label for="policy">Принять</label>
-        </div>
-
-
-        <button type="submit">Отправить</button>
-        
-
-        
-    </form> -->
-
-    <!-- <script>
-        (() => {
-            document
-                .querySelector('.js-speaker-form')
-                .addEventListener('submit', e => {
-                    e.preventDefault();
-
-                    new FormData(e.currentTarget).forEach((value, name) => 
-                        console.log(`${name}: ${value}`),
-                    );
-
-                    e.currentTarget.reset();
-                });
-        })();    
-    </script> -->
+        <button class="form-submit" type="submit">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
